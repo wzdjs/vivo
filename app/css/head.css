@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+.log{
+	width: 1200px;
+	height: 640px;
+}
+.cont{
+	width: 1350px;
+	/*margin: 0 auto;*/
+	padding: 0 75px;
+}
+.nav{
+	height: 33px;
+	background: #333;
+	margin: 0 auto;
+}
+/*.nav p{
+	display: inlne-block;
+	width: 150px;
+	height: 33px;
+}*/
+.nav li a{
+	height: 33px;
+	font-size: 12px;
+	margin: 4px;
+	color:#fff;
+}
+.nav li{
+	height: 33px;
+	float: left;
+}
+.head ul{
+	height: 607px;
+	margin: 0 auto;
+}
+.head ul li a img{
+	height: 607px;
+	width: 1200px;
+	
+}
