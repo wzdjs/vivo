@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.main{
+	position: relative;
+	width: 1350px;
+	height: 710px;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.vivo{
+	position: absolute;
+	top: 0;
+	left: 250px;
+}
+.jion_form{
+	position: absolute;
+	top: ;
+}
