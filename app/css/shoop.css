@@ -9,7 +9,7 @@
 #img{
 	position: absolute;
 	top: 0;
-	left: 60px;
+	left: 75px;
 }
 .nav{
 	padding-top: 20px;
@@ -197,43 +197,134 @@
 	height: 640px;
 }
 /****************  图层导航    *******/
-.menu_nav{
+#menu_nav{
 	position: absolute;
-	top: 20px;
+	top: 60px;
 	left: 75px;
 	background: #f7f7f5;
+	z-index: 4;
+	width: 200px;
+	height: 482px;
+}
+#menu_nav li{
+	line-height: 60px;
+	position: relative;
+}
+#menu_nav li:hover{
+	background: white;
+}
+#menu_nav li a{
+	margin-left: 40px;
+	font-size: 28px;
+	font-weight: 900;
+	padding-right: 60px;
+}
+#menu_nav li a i{
+	margin-left: 60px;
+}
+/********   子页面    ***************/
+#nav_show{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+#menu_nav li:hover .nav_show{
+	display: block;
+}
+#nav_show1{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -67px;
+	left: 0px;
+	display: none;
+}
+.menu_nav li:hover .nav_show1{
+	display: block;
+}
+.nav_show2{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -134px;
+	left: 0px;
+	display: none;
+}
+.nav_show3{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -201px;
+	left: 0px;
+	display: none;
+}
+.nav_show4{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -268px;
+	left: 0px;
+	display: none;
+}
+.nav_show5{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -335px;
+	left: 0px;
+	display: none;
+}
+.nav_show6{
+	width: 970px;
+	height: 482px;
+	padding-left: 210px;
+	position: absolute;
+	top: -402px;
+	left: 0px;
+	display: none;
 }
 
+.menu_nav_show{
+	width: 760px;
+	height: 482px;
+	background: white;
+}
+/******** 主题内容     四张图片    **********/
+.main{
+	height: 240px;
+	padding: 0 60px 20px 60px;
+	background: #f7f7f5;
+}
+.main li{
+	float: left;
+	overflow: hidden;
+	transition:all .2s linear .1s;
+	position: relative;
+	margin-right: 4px;
+	width: 300px;
+}
+.main li a{
+	width: 100%;
+	height: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.main li:hover img{
+	transform: scale(1.3,1.3);
+}
+.main li img{
+	width: 300px;
+	height: 220px;
+	
+}
 
 
 
